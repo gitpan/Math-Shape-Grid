@@ -1,0 +1,25 @@
+---
+abstract: 'a 2d grid for visualizing Math::Shape::Point objects on the terminal'
+author:
+  - 'David Farrell <sillymoos@cpan.org>'
+build_requires:
+  Math::Shape::Point: '0'
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141170'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Math-Shape-Grid
+requires:
+  List::Util: '0'
+  perl: '5.008'
+  strict: '0'
+  warnings: '0'
+resources:
+  homepage: https://github.com/sillymoose/Math-Shape-Grid
+  repository: https://github.com/sillymoose/Math-Shape-Grid.git
+version: '0.01'
