@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package Math::Shape::Grid;
-$Math::Shape::Grid::VERSION = '0.01';
+$Math::Shape::Grid::VERSION = '0.02';
 use 5.008;
 use List::Util qw/max min/;
 
@@ -69,7 +69,7 @@ Math::Shape::Grid - a 2d grid for visualizing Math::Shape::Point objects on the 
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
