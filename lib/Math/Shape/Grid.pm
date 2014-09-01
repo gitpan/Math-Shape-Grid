@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package Math::Shape::Grid;
-$Math::Shape::Grid::VERSION = '0.02';
+$Math::Shape::Grid::VERSION = '0.03';
 use 5.008;
 use List::Util qw/max min/;
 
@@ -54,7 +54,6 @@ sub print {
     1;
 }
 
-
 1;
 
 __END__
@@ -69,7 +68,7 @@ Math::Shape::Grid - a 2d grid for visualizing Math::Shape::Point objects on the 
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -101,6 +100,9 @@ version 0.02
      -5  .  .  .  .  .  .  .  .  .  .  .  .  .  .
      y
 
+=for HTML <a href="https://travis-ci.org/sillymoose/Math-Shape-Grid"><img src="https://travis-ci.org/sillymoose/Math-Shape-Grid.svg?branch=master"></a> 
+<a href='https://coveralls.io/r/sillymoose/Math-Shape-Rectangle?branch=master'><img src='https://coveralls.io/repos/sillymoose/Math-Shape-Rectangle/badge.png?branch=master' alt='Coverage Status' /></a>
+
 =head1 FUNCTIONS
 
 =head2 print
@@ -108,6 +110,10 @@ version 0.02
 Prints a grid to STDOUT. Requires a hashref of L<Math::Shape::Point> objects.
 
     Math::Shape::Grid::print($points);
+
+=head1 REPOSITORY
+
+L<https://github.com/sillymoose/Math-Shape-Grid.git>
 
 =head1 AUTHOR
 

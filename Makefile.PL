@@ -25,10 +25,10 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
-    "Math::Shape::Point" => 0,
+    "Math::Shape::Point" => "1.05",
     "Test::More" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -37,7 +37,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "List::Util" => 0,
-  "Math::Shape::Point" => 0,
+  "Math::Shape::Point" => "1.05",
   "Test::More" => 0,
   "strict" => 0,
   "warnings" => 0

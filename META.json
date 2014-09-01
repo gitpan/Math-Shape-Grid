@@ -36,7 +36,7 @@
       },
       "test" : {
          "requires" : {
-            "Math::Shape::Point" : "0",
+            "Math::Shape::Point" : "1.05",
             "Test::More" : "0"
          }
       }
@@ -50,6 +50,6 @@
          "web" : "https://github.com/sillymoose/Math-Shape-Grid"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 
